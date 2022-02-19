@@ -37,7 +37,7 @@
             Instead of getting stressed and exhausted on the internet, search
             your dream skill and get your hands on it right now.
           </h3>
-          <button class="btn btn--col-1-1">Login</button>
+          <button class="btn btn--col-1-1 btn__login">Login</button>
         </div>
 
         <div class="col-1-2">
@@ -87,6 +87,35 @@
         </div>
       </div>
     </div>
+
+    <div class="login__modal login hidden">
+      <button class="close__login btn-close">&times;</button>
+      <h1>Login</h1>
+      <p class="createAccount">
+        Or <span class="create__account">create your account</span>
+      </p>
+      <div class="inputLogin input__login">
+        <button class="code">+91</button>
+        <input
+          type="number"
+          placeholder="Enter your mobile number"
+          class="input__number"
+        />
+      </div>
+      <div class="otp hidden">
+        <input type="number" placeholder="Enter OTP" class="input__otp" />
+      </div>
+      <div class="continue-login">
+        <button class="btn btn__sendotp btn-modal">Send OTP</button>
+        <button class="btn btn__continue--login hidden">Login</button>
+        <p class="email__login email-modal">Continue with email</p>
+      </div>
+      <p class="trouble-login">
+        Having trouble? Please contact <span>help@onetapgo.com</span> for
+        further support
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
 
     <footer>
       <p>2022 OneTapGo, Inc. All rights reserved.</p>
