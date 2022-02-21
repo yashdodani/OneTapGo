@@ -23,8 +23,9 @@ const userIcon = document.querySelector(".user__icon");
 const hoverUser = document.querySelector(".hover__on__user");
 const searchModal = document.querySelector(".search__modal");
 const categoriesModal = document.querySelector(".categories__modal");
-
 const inputLoginDiv = document.querySelector(".input__login");
+
+const categoryWebDev = document.querySelector(".categoryWebDev");
 
 const btnLogin = document.querySelectorAll(".btn__login");
 const btnCloseModal = document.querySelector(".close__login");
@@ -177,3 +178,9 @@ closeCategories.addEventListener("click", function () {
   overlay.classList.add("hidden");
   document.getElementsByTagName("body")[0].style.overflow = "visible"; // enabled scroll
 });
+
+// categoryWebDev.addEventListener("click", function () {
+//   location.replace(
+//     "file:///C:/Users/yash/Projects/OneTapGo/webdev/webdev.html"
+//   );
+// });

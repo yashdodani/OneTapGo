@@ -506,6 +506,11 @@ footer p:hover {
   transition: background-color 0.5s;
 }
 
+.categories__btn a {
+  text-decoration: none;
+  color: black;
+}
+
 .categories__btn:hover {
   background-color: #75f5ce;
 }
