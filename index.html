@@ -8,27 +8,32 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/5806adf14d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="shortcut icon" type="image/png" href="img/logo1.png" />
     <title>OneTapGo - Begin your journey with us</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- NAVBAR  -->
     <nav class="navbar">
       <img src="img/navLogo.png" alt="logo" class="navLogo" />
       <ul>
-        <li><a href="">WHY US?</a></li>
-        <li><a href="">CATEGORIES</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li class="categories"><a href="#">CATEGORIES</a></li>
       </ul>
-      <input
-        type="text"
-        placeholder="What you want to learn?"
-        class="navInput"
-      />
+      <div class="user">
+        <img src="img/user-circle.svg" class="user__icon hidden" />
+        <span class="hover__on__user hidden"></span>
+      </div>
+      <button class="btn click__to__search">Search here...</button>
       <button class="btn btn__login">Login</button>
     </nav>
     <div class="empty"></div>
 
+    <!-- CONTAINER  -->
     <div class="container">
       <div class="row-1">
         <div class="col-1-1">
@@ -88,6 +93,9 @@
       </div>
     </div>
 
+    <!-- MODAL WINDOWS -->
+
+    <!-- LOGIN WINDOW -->
     <div class="login__modal login hidden">
       <button class="close__login btn-close">&times;</button>
       <h1>Login</h1>
@@ -117,16 +125,68 @@
     </div>
     <div class="overlay hidden"></div>
 
+    <!-- SEARCH BAR -->
+    <div class="search__modal search hidden">
+      <button class="close__search btn-close">&times;</button>
+      <h1>Search your roadmap to the future...</h1>
+      <div class="wrapper">
+        <div class="search-input">
+          <input type="text" placeholder="Search" class="input" />
+          <div class="autocom-box"></div>
+          <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="categories__modal categories hidden">
+      <button class="close__categories btn-close">&times;</button>
+      <h1>Categories</h1>
+      <div class="categoriesButtons">
+        <div class="buttonsDiv1">
+          <button class="categories__btn">
+            Web Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Cyber Security <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Android Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Data Structures and Algorithms
+            <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Machine Learning <span> &rarr;</span>
+          </button>
+        </div>
+        <div class="buttonsDiv2">
+          <button class="categories__btn">
+            IOS Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Data Science <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Artificial Intelligence <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Game Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Blockchain Development <span> &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER  -->
     <footer>
       <p>2022 OneTapGo, Inc. All rights reserved.</p>
       <p>Terms of use</p>
       <p>Cookies policy</p>
     </footer>
-
-    <script
-      src="https://kit.fontawesome.com/5806adf14d.js"
-      crossorigin="anonymous"
-    ></script>
     <script src="app.js"></script>
   </body>
 </html>

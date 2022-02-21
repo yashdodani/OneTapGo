@@ -1,1 +1,6 @@
 font-family: 'Montserrat', sans-serif;
+<input
+        type="text"
+        placeholder="What you want to learn?"
+        class="navInput"
+      />
