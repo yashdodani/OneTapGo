@@ -9,6 +9,7 @@
   margin: auto;
 } */
 
+/* NAVBAR  */
 .empty {
   height: 14vh;
   background-color: white;
@@ -43,7 +44,7 @@
   text-decoration: none;
   font-size: 15px;
   color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -57,14 +58,14 @@
   border: 1px solid black;
   border-radius: 7px;
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding: 0 0.5%;
 }
 
 .navInput::placeholder {
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn {
@@ -77,7 +78,7 @@
   border-radius: 6px;
   cursor: pointer;
   font-size: 17px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: 0.5s;
 }
 
@@ -87,6 +88,11 @@
 
 .click__to__search {
   width: 150px;
+}
+
+/* IMPORTANT */
+.hidden {
+  display: none;
 }
 
 /* ROW 1 */
@@ -104,7 +110,7 @@
 .col-3-1 h1,
 .col-4-2 h1 {
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 800;
   width: 60vw;
@@ -120,7 +126,7 @@
 .col-2-2 h3,
 .col-3-1 h3 {
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400;
   width: 50%;
@@ -217,7 +223,7 @@
 }
 
 .col-4-2 h1 span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   background: linear-gradient(to right, #ff0048, #fc1100);
   -webkit-text-fill-color: transparent;
@@ -250,7 +256,7 @@ footer {
 }
 
 footer p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: bold;
   padding: 0 0 2% 5%;
@@ -290,10 +296,6 @@ footer p:hover {
   z-index: 5;
 }
 
-.hidden {
-  display: none;
-}
-
 .btn-close {
   font-size: 40px;
   border: none;
@@ -303,16 +305,16 @@ footer p:hover {
 
 .login h1,
 .search h1,
-.categories h1 {
+.categoriesDiv h1 {
   font-size: 40px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding: 4% 0 2px 0;
 }
 
 .createAccount {
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -334,7 +336,7 @@ footer p:hover {
   font-weight: 600;
   cursor: pointer;
   background-color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 2%;
 }
 
@@ -345,7 +347,7 @@ footer p:hover {
 .input__number,
 .input__otp {
   padding: 2% 1%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
   width: 50%;
@@ -381,7 +383,7 @@ footer p:hover {
 
 .email-modal {
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   cursor: pointer;
 }
@@ -391,7 +393,7 @@ footer p:hover {
   bottom: 3%;
   text-align: center;
   color: rgb(85, 85, 85);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -475,7 +477,7 @@ footer p:hover {
 
 /* CATEGORIES MODAL */
 
-.categories h1 {
+.categoriesDiv h1 {
   text-align: center;
 }
 

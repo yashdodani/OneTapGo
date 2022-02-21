@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="img/logo1.png" />
+    <title>Web Development - Begin your journey with us</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ffa6beebe6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <nav class="navbar">
+      <img src="img/navLogo.png" alt="logo" class="navLogo" />
+      <ul>
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li class="categories"><a href="#">categories</a></li>
+      </ul>
+      <div class="user">
+        <img src="img/user-circle.svg" class="user__icon hidden" />
+        <span class="hover__on__user hidden"></span>
+      </div>
+      <button class="btn click__to__search">Search here...</button>
+    </nav>
+    <div class="empty"></div>
+
+    <!-- CATEGORIES -->
+    <div class="categories__modal categoriesDiv hidden">
+      <button class="close__categories btn-close">&times;</button>
+      <h1>Categories</h1>
+      <div class="categoriesButtons">
+        <div class="buttonsDiv1">
+          <button class="categories__btn">
+            Web Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Cyber Security <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Android Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Data Structures and Algorithms
+            <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Machine Learning <span> &rarr;</span>
+          </button>
+        </div>
+        <div class="buttonsDiv2">
+          <button class="categories__btn">
+            IOS Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Data Science <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Artificial Intelligence <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Game Development <span> &rarr;</span>
+          </button>
+          <button class="categories__btn">
+            Blockchain Development <span> &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- SEARCH BAR -->
+    <div class="search__modal search hidden">
+      <button class="close__search btn-close">&times;</button>
+      <h1>Search your roadmap to the future...</h1>
+      <div class="wrapper">
+        <div class="search-input">
+          <input type="text" placeholder="Search" class="input" />
+          <div class="autocom-box"></div>
+          <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT FOR WEB Development -->
+    <div class="container">
+      <h1>Web Development</h1>
+      <div class="main">
+        <div class="suggested">
+          <button class="btnSugg frontend__btn">Frontend</button>
+          <button class="btnSugg backend__btn">Backend</button>
+          <button class="btnSugg fullStack__btn">Full stack</button>
+        </div>
+
+        <div class="roadmap">
+          <div class="fundamentals">
+            <h2>Fundamentals of Web Development (Most important)</h2>
+            <div class="row1">
+              <div class="content1">
+                <img src="img/html.png" alt="" />
+                <h3>HTML</h3>
+                <p class="description">
+                  HTML5 is a programming language whose acronym stands for Hyper
+                  Text Markup Language. It is a system that allows the
+                  modification of the appearance of web pages..
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wtc3@8RNm7hPaYMvEBv-GlGNczGDad0WJPuvU466hUporoPZhnS59d1ZQTB67awGMgn1rBg==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content2">
+                <img src="img/css.png" alt="" />
+                <h3>CSS</h3>
+                <p class="description">
+                  If HTML were the engine components of a car, CSS would be the
+                  body style and the paint job. A website can run without CSS,
+                  but it certainly isn't pretty.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wtc3@8RNm7hPaYMvEBv-GlGNczGDad0WJPuvU466hUporoPZhnS59d1ZQTB67awGMgn1rBg==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content3">
+                <img src="img/javascript.png" alt="" />
+                <h3>JavaScript</h3>
+                <p class="description">
+                  JavaScript is a programming language which allows you to take
+                  web elements and make them interactive. It is an important
+                  tool for any web developer.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wfe3@xQsaKR-DhaOjcDZq2Sey4Wnn1Q7fECXiEBirGvPb9Y5V7v8ZYeIEpigdS3S8Eg9JwA==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="css__frameworks">
+            <h2>CSS Frameworks (Choose any one)</h2>
+            <div class="row2">
+              <div class="content1">
+                <img src="img/bootstrap.png" alt="" />
+                <h3>
+                  Bootstrap
+                  <span class="recommendation">(For beginners)</span>
+                </h3>
+                <p class="description">
+                  Bootstrap makes front-end web development faster and easier.
+                  It's made for folks of all skill levels, devices of all
+                  shapes, and projects of all sizes.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.coursera.org/learn/bootstrap-4"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content2">
+                <img src="img/tailwindcss.svg" alt="" />
+                <h3>Tailwind CSS</h3>
+                <p class="description">
+                  Tailwind is a different type of framework. Instead of
+                  pre-built components, Tailwind provides utility classes.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a href="" target="_blank">Learn Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="javascript__frameworks">
+            <h2>
+              JavaScript Frameworks for Frontend Development (Choose any one)
+            </h2>
+            <div class="row3 javascript__frameworks">
+              <div class="content1">
+                <img src="img/react.png" alt="" />
+                <h3>
+                  ReactJS<span class="recommendation"
+                    >(Our recommendation)</span
+                  >
+                </h3>
+
+                <p class="description">
+                  ReactJs is an open-source JavaScript library that is used to
+                  build user interfaces. It is scalable, simple and fast.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wby3@OnpH8yGoVLpK15Q2jI2Uyrczltf-luLci5it41F9QNtAecpFHIvGgngz0DJxFX2YqA==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content2">
+                <img src="img/angularjs.png" alt="" />
+                <h3>AngularJS</h3>
+                <p class="description">
+                  Angular is a powerful, modern and has a nice ecosystem. It is
+                  quite a big and complex framework with its own philosophy
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101WgA3@klJc2MqRwXjD-I5uZS5qpwp7euXHJSheZlCoaTy3ZP95WybpIEge2fvKEXqXrbu61g==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content3">
+                <img src="img/vue.png" alt="" />
+                <h3>VueJS</h3>
+                <p class="description">
+                  Vue.js is a JavaScript framework with various optional tools
+                  for building user interfaces. One of the greatest advantages
+                  of Vue.js is its small size.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101WzM3@cczqqJfhqdDGlsLdsUU-d3qfvJaaBlXmJyPoCmBNEbIMzAEDvRmBav0LGFlWLaVwng==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="backend">
+            <h2>For Backend Development</h2>
+            <div class="row4">
+              <div class="content1">
+                <img src="img/nodejs.png" alt="" />
+                <h3>NodeJS</h3>
+                <p class="description">
+                  Node.js is an open-source, cross-platform runtime environment
+                  for building fast and scalable server-side and networking
+                  applications.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wv63@Ic-PpCndPxNLr1nGpkeyhqyUEBOUnafrxNrvnHU8ZaI-yVZ446MtxY7kzzViTfc92w==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content2">
+                <img src="img/mongodb.png" alt="" />
+                <h3>MongoDB</h3>
+                <p class="description">
+                  MongoDB is an open-source document database built on a
+                  horizontal scale-out architecture that uses a flexible schema
+                  for storing data.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wv63@Ic-PpCndPxNLr1nGpkeyhqyUEBOUnafrxNrvnHU8ZaI-yVZ446MtxY7kzzViTfc92w==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div class="content3">
+                <img src="img/pngwing.com.png" alt="" />
+                <h3>ExpressJS</h3>
+                <p class="description">
+                  The most common use for Node.js is writing Web apps, and a
+                  large percentage of these web apps today are using Express.js
+                  as their server framework.
+                </p>
+                <div class="contentBottom">
+                  <p class="bestChoice">Our best choice <span>&rarr;</span></p>
+                  <button class="learnNow">
+                    <a
+                      href="https://www.udemy.com/share/101Wv63@Ic-PpCndPxNLr1nGpkeyhqyUEBOUnafrxNrvnHU8ZaI-yVZ446MtxY7kzzViTfc92w==/"
+                      target="_blank"
+                      >Learn Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="webdevapp.js"></script>
+  </body>
+</html>

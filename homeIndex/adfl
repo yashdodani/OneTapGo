@@ -4,3 +4,6 @@ font-family: 'Montserrat', sans-serif;
         placeholder="What you want to learn?"
         class="navInput"
       />
+
+      font-family: 'Arvo', serif;
+      font-family: 'Poppins', sans-serif;
