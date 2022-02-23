@@ -73,7 +73,7 @@ body {
   padding: 12px 10px;
   outline: none;
   color: #fff;
-  background: #0258c9;
+  background: #1f4287;
   border-radius: 6px;
   cursor: pointer;
   font-size: 17px;
@@ -306,6 +306,7 @@ body {
 .content3 {
   height: 400px;
   background-color: #001527;
+  /* background-color: #071e3d; */
   width: 28%;
   border-radius: 10px;
   margin: 30px 0 30px 0;

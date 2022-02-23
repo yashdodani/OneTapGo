@@ -93,10 +93,17 @@ closeSearch.addEventListener("click", function () {
 
 // Applying the 3 buttons for suggestions
 btnFrontend.addEventListener("click", function () {
+  if (cssFrameworks.classList.contains("hidden")) {
+    cssFrameworks.classList.remove("hidden");
+    javascriptFrameworks.classList.remove("hidden");
+  }
   backend.classList.add("hidden");
 });
 
 btnBackend.addEventListener("click", function () {
+  if (backend.classList.contains("hidden")) {
+    backend.classList.remove("hidden");
+  }
   cssFrameworks.classList.add("hidden");
   javascriptFrameworks.classList.add("hidden");
 });
