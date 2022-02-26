@@ -279,6 +279,15 @@ body {
   border: 0.5px solid black;
 }
 
+.community__btn {
+  background-color: #3b90ff;
+}
+
+.community__btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .main h2 {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
